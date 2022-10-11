@@ -1,0 +1,17 @@
+.date-container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    border: white solid 2px;
+    background-color: darkcyan;
+    padding: 5px;
+    width: 80px;
+    height: 100px;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Berlin Sans FB", serif;
+}
+.date-day{
+    font-size: 2rem;
+}
