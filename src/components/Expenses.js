@@ -1,7 +1,7 @@
 import ExpenseItem from './ExpenseItem.js'
-import './AllExpenses.css'
+import './Expenses.css'
 
-function AllExpenses(props){
+function Expenses(props){
     const expenses = props.expenses
     return(
         <div className='expenses'>
@@ -30,4 +30,4 @@ function AllExpenses(props){
     )
 }
 
-export default AllExpenses
+export default Expenses
