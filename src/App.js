@@ -24,22 +24,12 @@ function App() {
         },
     ];
 
-
-    // using React directly
-    return React.createElement(
-        'div',
-        {},
-        React.createElement('h2',{}, "Lets Get started!"),
-        React.createElement(Expenses,{ expenses: expenses})
-    ) ;
-
-    // Using JSX
-  // return (
-  //   <div>
-  //       <h2>Let's get started!</h2>
-  //       <Expenses expenses={expenses} />
-  //   </div>
-  // );
+  return (
+    <div>
+        <h2>Let's get started!</h2>
+        <Expenses expenses={expenses} />
+    </div>
+  );
 }
 
 export default App;
