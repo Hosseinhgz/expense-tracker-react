@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0735133-aa17-4dea-9ea4-1ea2aebb8c20" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Card.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpenseDate.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseDate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpenseItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpenseItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Expenses.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Expenses.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Expenses.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +53,7 @@
       <updated>1665440506612</updated>
       <workItem from="1665440510160" duration="6134000" />
       <workItem from="1665499592084" duration="5899000" />
-      <workItem from="1665519484528" duration="1417000" />
+      <workItem from="1665519484528" duration="2879000" />
     </task>
     <servers />
   </component>
