@@ -3,7 +3,7 @@ import React from 'react'
 import NewExpense from './components/NewExpense/NewExpense'
 
 function App() {
-    const expenses = [
+    let expenses = [
         {
             id: 'e1',
             title: 'Toilet Paper',
@@ -24,10 +24,12 @@ function App() {
             date: new Date(2021, 5, 12),
         },
     ];
-
+    const addNewExpenseHandler = (enteredExpense) => {
+        console.log(enteredExpense)
+    }
   return (
     <div>
-        <NewExpense />
+        <NewExpense onAddNewExpense={addNewExpenseHandler}/>
         <Expenses expenses={expenses} />
     </div>
   );
