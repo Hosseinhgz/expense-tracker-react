@@ -4,7 +4,7 @@ import './ExpenseForm.css'
 const ExpenseForm = (props) => {
     const [enteredTitle,setEnteredTitle] = useState("")
     const [enteredAmount,setEnteredAmount] = useState("")
-    const [enteredDate,setEnteredDate] = useState("")
+    const [enteredDate,setEnteredDate] = useState('')
 
     // Another way
     // const [userInput, setUserInput] = useState({
@@ -35,7 +35,7 @@ const ExpenseForm = (props) => {
         const expenseData = {
             title: enteredTitle,
             amount: enteredAmount,
-            date: enteredDate
+            date: new Date(enteredDate)
         }
         props.onAddNewExpense(expenseData)
         setEnteredDate("")
