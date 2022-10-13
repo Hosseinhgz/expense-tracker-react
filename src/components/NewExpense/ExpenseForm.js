@@ -31,16 +31,16 @@ const ExpenseForm = (props) => {
         setEnteredDate(event.target.value)
     }
     const submitHandler = (event)=>{
-    event.preventDefault()
-    const expenseData = {
-        title: enteredTitle,
-        amount: enteredAmount,
-        date: enteredDate
-    }
-    props.onAddNewExpense(expenseData)
-    setEnteredDate("")
-    setEnteredAmount("")
-    setEnteredTitle("")
+        event.preventDefault()
+        const expenseData = {
+            title: enteredTitle,
+            amount: enteredAmount,
+            date: enteredDate
+        }
+        props.onAddNewExpense(expenseData)
+        setEnteredDate("")
+        setEnteredAmount("")
+        setEnteredTitle("")
     }
 
     const resetHandler = () => {
