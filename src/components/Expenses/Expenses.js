@@ -23,7 +23,6 @@ function Expenses(props){
                 />
                 <ExpensesList items={filteredExpenses}/>
             </Card>
-
         )
 }
 
