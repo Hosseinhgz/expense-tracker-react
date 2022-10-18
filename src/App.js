@@ -34,8 +34,6 @@ function App() {
             return [enteredExpense, ...prevExpenses]
         })
 
-        console.log(enteredExpense)
-
     }
   return (
     <div>
